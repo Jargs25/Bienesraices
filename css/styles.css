@@ -251,7 +251,9 @@ text-align: center;
 }
 
 @media (min-width: 768px) {
-    flex-basis: calc(33.3% - 1rem);
+    .icono {
+        flex-basis: calc(33.3% - 1rem);
+    }
 }
 
 .icono h3 {
@@ -377,7 +379,7 @@ text-align: center;
     margin-bottom: 0;
 }
 
-@media (min-width:) {
+@media (min-width:768px) {
     .entrada-blog .imagen {
         flex-basis: 40%;
     }
